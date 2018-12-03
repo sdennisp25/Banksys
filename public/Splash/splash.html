@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Splash Page</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+			  crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../public/js/splash.js"></script>
+</head>
+
+<body>
+	<br>
+
+	<div class="container">
+
+		<div class="row">
+			<div class="card">
+				<div class="card-image">
+					<img src="./money.jpg">
+					<span class="card-title">Money Manager</span>
+				</div>
+				<div class="card-content">
+					<!-- <p>Welcome to the Childrens Money Manager! You will first enter the amount of money you have. Then you will pick something
+						you would like to buy. Based on how much youd have, and how much your item costs, we will give you the calcutations
+						on how long it will take to purchase the item based on your chores.</p> -->
+					<form role="form">
+						<div class="form-group">
+							<h3>Enter your name to begin the fun! </h3> 
+							<input type="text" class="form-control" id="username" placeholder="Your name">
+							<button action= "/money_manager" id="submit" type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Submit</button>
+						</div>
+					</form>
+					
+				</div>
+			</div>
+		</div>
+
+
+		<!-- <div class="container">
+			<div class="modal fade" id="myModal" role="dialog">
+				<div class="modal-dialog">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<div class="modal-content">
+						<div class="modal-header">
+							<h4><span></span> Enter Your Name!</h4>
+						</div>
+						<div class="modal-body">
+							<form role="form">
+								<div class="form-group">
+									<input type="text" class="form-control" id="usrname" placeholder="Enter your name">
+								</div>
+
+								<button id="submit" type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Submit</button>
+							</form>
+						</div>
+						<div class="modal-footer">
+							<button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span>
+								Cancel</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> -->
+
+
+</body>
+
+</html>
