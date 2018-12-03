@@ -3,9 +3,9 @@
 #### Created an application to help educate kids on how to manage their funds. They will begin by entering the amount they initially have to start with. This amount will be tracked based on if the users action, whether if they save/add(chores)/purchase an item from the database(wish list). We will be using an API (Amazon/Wal-Mart/Wish-List) to manage our database. This application will also determine the amount the user would have to save/make to purchase the item from the database.
 
 ## Getting Started
-heroku ????
+* Must obtain a Wal-Mart API key
 
-## Prerequisites## 
+## Prerequisites 
 * Needs Node, Mysql, handlebars
 
 ## Built With
@@ -15,7 +15,6 @@ heroku ????
 * Bootstrap - For page griding
 * Materialize - For page components
 * Google Fonts - To change page fonts
-
 
 ## Authors
 * Dennis - Built Splash page worked on main page and splash page styling
